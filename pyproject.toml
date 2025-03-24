@@ -26,3 +26,17 @@ mkdocs-material = "^9.6.9"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options] 
+pythonpath = "." 
+addopts = "--doctest-modules"
+
+[tool.isort]
+profile = "black" 
+line_length = 79 
+
+[tool.taskipy.tasks] 
+lint = "blue --check --diff . && isort --check --diff ."
+docs = "mkdocs serve"
+test= "pytest -s -x --cov=app_dash -vv"
+post_test = "coverage html"
