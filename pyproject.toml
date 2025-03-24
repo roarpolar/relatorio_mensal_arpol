@@ -10,6 +10,7 @@ python = "^3.12"
 mkdocstrings = {extras = ["python"], version = "^0.29.0"}
 mkdocstrings-python = "^1.16.8"
 looptools = "^1.2.4"
+requests = "^2.32.3"
 
 
 [tool.poetry.group.dev.dependencies]
