@@ -1,0 +1,13 @@
+/* Ajusta o tamanho da logo */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centraliza os cabeçalhos de texto */
+.center-text {
+    text-align: center;   /* Centraliza o texto */
+    font-size: 25px;     /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;    /* Deixa o texto em negrito, caso necessário */
+  }

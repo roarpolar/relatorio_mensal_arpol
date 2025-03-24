@@ -425,6 +425,17 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "looptools"
+version = "1.2.4"
+description = "Lightweight Python help utility."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "looptools-1.2.4.tar.gz", hash = "sha256:aef2d7f3339fe3dac9e05e84dfa11b371ee9b5de7db1d82f0a78434053d3ec80"},
+]
+
+[[package]]
 name = "markdown"
 version = "3.7"
 description = "Python implementation of John Gruber's Markdown."
@@ -1163,4 +1174,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "f736b8a10408175b6dcfbb2aa54c176549363002e1c1a4667c88f8e264920b9c"
+content-hash = "d68e25142dc9e8944457170281e6d6d73f20e8de3a71e534d40d620b591797fa"

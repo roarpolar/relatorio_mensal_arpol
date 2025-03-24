@@ -1,0 +1,15 @@
+site_name: Relatório Arpol Dashbord 
+repo_url: https://github.com/roarpolar/app_dash_relatorio 
+repo_name: Romilsonlonan/app_dash_relatorio
+edit_uri: tree/main/docs
+
+theme: 
+    name: material
+    language: pt-BR 
+    logo: /assets/Arpol_Quality_Care_Image.png
+
+extra_css:
+  - stylesheets/extra.css  # Referencie o arquivo CSS aqui
+
+markdown_extensions:
+  - attr_list
