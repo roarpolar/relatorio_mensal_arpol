@@ -1,0 +1,102 @@
+/* Estilos gerais */
+.stApp {
+    background-color: #f0f2f6;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1E3D7B;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 2rem;
+}
+
+/* Cards */
+.card {
+    background-color: #fff3e0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Cores dos cards */
+.atrasadas {
+    color: #d32f2f;
+}
+
+.nao-realizadas {
+    color: #f57c00;
+}
+
+.pendentes {
+    color: #1a237e;
+}
+
+.realizadas {
+    color: #388e3c;
+}
+
+/* Botões dos supervisores */
+.supervisor-btn {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.supervisor-btn:hover {
+    background-color: #5c6bc0;
+}
+
+/* Calendário */
+.calendar-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.metric-card {
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    margin: 0.5rem;
+} 
